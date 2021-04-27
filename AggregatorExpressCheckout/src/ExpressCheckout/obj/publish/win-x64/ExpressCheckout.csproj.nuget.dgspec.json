@@ -1,0 +1,563 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckout\\ExpressCheckout.csproj": {}
+  },
+  "projects": {
+    "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\anand.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\AggregatorExpressCheckout\\src\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anand.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "System.Collections.Specialized": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj",
+        "projectName": "ExpressCheckoutContracts",
+        "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj",
+        "packagesPath": "C:\\Users\\anand.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anand.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutDb\\ExpressCheckoutDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutDb\\ExpressCheckoutDb.csproj",
+        "projectName": "ExpressCheckoutDb",
+        "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutDb\\ExpressCheckoutDb.csproj",
+        "packagesPath": "C:\\Users\\anand.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutDb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anand.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj"
+              },
+              "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutModule\\ExpressCheckoutModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutModule\\ExpressCheckoutModule.csproj",
+        "projectName": "ExpressCheckoutModule",
+        "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutModule\\ExpressCheckoutModule.csproj",
+        "packagesPath": "C:\\Users\\anand.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anand.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj"
+              },
+              "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj"
+              },
+              "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutDb\\ExpressCheckoutDb.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutDb\\ExpressCheckoutDb.csproj"
+              },
+              "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutPaymentIntegrationModule\\ExpressCheckoutPaymentIntegrationModule.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutPaymentIntegrationModule\\ExpressCheckoutPaymentIntegrationModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutPaymentIntegrationModule\\ExpressCheckoutPaymentIntegrationModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutPaymentIntegrationModule\\ExpressCheckoutPaymentIntegrationModule.csproj",
+        "projectName": "ExpressCheckoutPaymentIntegrationModule",
+        "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutPaymentIntegrationModule\\ExpressCheckoutPaymentIntegrationModule.csproj",
+        "packagesPath": "C:\\Users\\anand.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutPaymentIntegrationModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anand.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj"
+              },
+              "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj"
+              },
+              "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutDb\\ExpressCheckoutDb.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutDb\\ExpressCheckoutDb.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckout\\ExpressCheckout.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckout\\ExpressCheckout.csproj",
+        "projectName": "ExpressCheckout",
+        "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckout\\ExpressCheckout.csproj",
+        "packagesPath": "C:\\Users\\anand.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckout\\obj\\publish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anand.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\Core\\Core.csproj"
+              },
+              "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutContracts\\ExpressCheckoutContracts.csproj"
+              },
+              "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutModule\\ExpressCheckoutModule.csproj": {
+                "projectPath": "D:\\main\\AggregatorExpressCheckout\\src\\ExpressCheckoutModule\\ExpressCheckoutModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCore.AsyncInitialization": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

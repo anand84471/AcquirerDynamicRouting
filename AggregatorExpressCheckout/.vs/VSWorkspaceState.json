@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\DynamicRouting\\Properties",
+    "\\src\\ExpressCheckoutDb",
+    "\\src\\ExpressCheckoutDb\\DBClients",
+    "\\src\\ExpressCheckoutDb\\DBClients\\Abstract"
+  ],
+  "SelectedNode": "\\src\\ExpressCheckoutDb\\DBClients\\Abstract\\IDBServiceClient.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,17 @@
+2020-09-24 16:08:24.5490|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-09-24 16:08:24.5805|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-09-24 16:08:24.6651|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-09-24 16:08:24.6822|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\main\AggregatorExpressCheckout\src\TorrentPayController
+2020-09-24 16:08:30.1738|INFO|TorrentPayController.Controllers.TorrentPayApiController|GetBankUrlDetailV2s method called with client tye id 1 and is_rquied_netbanking_details
+2020-09-24 16:08:33.9533|INFO|TorrentPayController.Controllers.TorrentPayApiController|Bank urls response data seralized successfully
+2020-09-24 16:08:33.9839|INFO|TorrentPayController.Controllers.TorrentPayApiController|Bank urls  data compressed successfully
+2020-09-24 16:11:18.3382|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-09-24 16:11:18.3820|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-09-24 16:11:18.3763|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-09-24 16:11:18.3820|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\main\AggregatorExpressCheckout\src\TorrentPayController
+2020-09-24 16:11:21.7657|INFO|TorrentPayController.Controllers.TorrentPayApiController|GetBankUrlDetailV2s method called with client tye id 1 and is_rquied_netbanking_details
+2020-09-24 16:11:23.1270|INFO|TorrentPayController.Controllers.TorrentPayApiController|Bank urls response data seralized successfully
+2020-09-24 16:11:23.1363|INFO|TorrentPayController.Controllers.TorrentPayApiController|Bank urls  data compressed successfully
+2020-09-24 16:11:26.4983|INFO|TorrentPayController.Controllers.TorrentPayApiController|GetBankUrlDetailV2s method called with client tye id 1 and is_rquied_netbanking_details
+2020-09-24 16:11:26.5872|INFO|TorrentPayController.Controllers.TorrentPayApiController|Bank urls response data seralized successfully
+2020-09-24 16:11:26.5872|INFO|TorrentPayController.Controllers.TorrentPayApiController|Bank urls  data compressed successfully

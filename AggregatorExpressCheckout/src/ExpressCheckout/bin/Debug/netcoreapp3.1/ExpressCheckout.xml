@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExpressCheckout</name>
+    </assembly>
+    <members>
+        <member name="T:ExpressCheckout.BusinessLayer.Abstract.IExpressCheckoutCustomerGateValidation">
+            <summary>
+            Gate business layer for customer validations
+            </summary>
+        </member>
+        <member name="T:ExpressCheckout.Controllers.CustomerController">
+            <summary>
+            Customer Api
+            </summary>
+        </member>
+        <member name="M:ExpressCheckout.Controllers.CustomerController.#ctor(ExpressCheckout.BusinessLayer.Abstract.IExpressCheckoutCustomerGateValidation,ExpressCheckoutModule.Cache.Abstract.IExpressCheckoutCache,Microsoft.Extensions.Logging.ILogger{ExpressCheckout.Controllers.CustomerController})">
+            <summary>
+            Customer Api Constructor
+            </summary>
+            <param name="expressCheckoutCustomerValidation">Gate business layer for validations</param>
+        </member>
+        <member name="M:ExpressCheckout.Controllers.CustomerController.CreateCustomer(ExpressCheckoutContracts.Requests.CreateCustomerRequest)">
+            <summary>
+            Gets the customer
+            </summary>
+        </member>
+        <member name="M:ExpressCheckout.Controllers.MerchantController.#ctor(ExpressCheckout.BusinessLayer.Abstract.IMerchantValidation,Core.Cache.Abstract.ICoreCache,Microsoft.Extensions.Logging.ILogger{ExpressCheckout.Controllers.MerchantController})">
+            <summary>
+            Customer Api Constructor
+            </summary>
+            <param name="expressCheckoutCustomerValidation">Gate business layer for validations</param>
+        </member>
+        <member name="M:ExpressCheckout.Controllers.MobileAppAPIController.#ctor(ExpressCheckout.BusinessLayer.Abstract.IMobileAppValidation,Core.Cache.Abstract.ICoreCache)">
+            <summary>
+            Customer Api Constructor
+            </summary>
+            <param name="expressCheckoutCustomerValidation">Gate business layer for validations</param>
+        </member>
+        <member name="M:ExpressCheckout.Controllers.OrderController.#ctor(ExpressCheckout.BusinessLayer.Abstract.IOrderValidation,Core.Cache.Abstract.ICoreCache,ExpressCheckoutPaymentIntegrationModule.ServiceLayer.Abstract.ICommonIntegrationHandlerService)">
+            <summary>
+            Customer Api Constructor
+            </summary>
+            <param name="expressCheckoutCustomerValidation">Gate business layer for validations</param>
+        </member>
+        <member name="M:ExpressCheckout.Validators.CardDataValidator.ValidateCardUsingLuhnAlgo(System.String)">
+            <returns>true if validated successfully</returns>
+        </member>
+        <member name="M:ExpressCheckout.Validators.CreditCardValidator.ValidateCardNumber(System.String)">
+            <summary>
+            Performs a validation using Luhn's Formula.
+            </summary>
+        </member>
+        <member name="M:ExpressCheckout.Validators.CreditCardValidator.IsValidCardTypeCheckByCardLength(System.String)">
+            <summary>
+            Method to check Card Number Length based on Card Type
+            </summary>
+            <param name="cardNumber">
+            Credir Card Number
+            </param>
+            <returns>
+            true if Card Length is Valid
+            </returns>
+        </member>
+        <member name="M:ExpressCheckout.Validators.CustomerSavedCardsDetailsRequestValidator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:ExpressCheckout.Validators.CardDataValidator"/> class.
+            </summary>
+        </member>
+    </members>
+</doc>

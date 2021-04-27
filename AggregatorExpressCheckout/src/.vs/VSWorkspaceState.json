@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ExpressCheckoutDb\\Repository\\Abstract",
+    "\\ExpressCheckoutDb\\Repository\\Concrete",
+    "\\ExpressCheckoutModule\\ApiClients\\Concrete",
+    "\\ExpressCheckoutModule\\ServiceLayer\\Concrete",
+    "\\ExpressCheckout\\bin\\Debug",
+    "\\ExpressCheckout\\bin\\Release",
+    "\\ExpressCheckout\\Validators"
+  ],
+  "PreviewInSolutionExplorer": false
+}
