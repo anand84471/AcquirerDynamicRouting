@@ -1,5 +1,5 @@
 # AcquirerDynamicRouting
-Acquirer dynamic routing deals with the Acquirer Dynamic Routing
+Acquirer dynamic routing deals with the dynamically routing the transaction coming on Acquirer via CC and DC.
 
 
 Introduction:
